@@ -1,5 +1,5 @@
 export function initAccordion() {
-    const accordionList = document.querySelectorAll('.js-accordion dt');
+    const accordionList = document.querySelectorAll('[data-accordion] dt');
     const activeClass = 'ativo';
     
     if(accordionList.length) {
